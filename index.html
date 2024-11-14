@@ -1,0 +1,133 @@
+
+
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayúdanos a Ayudar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>"Ayúdanos a Ayudar"</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#causas">Causas</a></li>
+                <li><a href="#efectos">Efectos</a></li>
+                <li><a href="#soluciones">Entrevistas</a></li>
+                <li><a href="#slider">Soluciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de inicio -->
+    <section id="inicio">
+        <h2>Bienvenido a nuestro sitio sobre Contaminación</h2>
+        <p>Explora los resultados de nuestras encuestas, efectos y posibles soluciones para reducir la contaminación ambiental.</p>
+          <a href="images/cartel.jpg" download="cartel.jpg " target="_blank">
+        <button >Haz clic para saber más</button>
+          </a>
+    </section>
+
+    <!-- Sección de causas -->
+    <section id="causas">
+        <h2>Causas de la Contaminación</h2>
+        <ul>
+            <li>Emisiones de vehículos</li>
+            <li>Industria y fábricas</li>
+            <li>Uso de plásticos</li>
+            <li>Quema de combustibles fósiles</li>
+        </ul>
+        <p>Los residuos tóxicos han tomado un papel dentro de nuestras vidas cotidianas, sin embargo, en no hacer un uso adecuado de estos a generado a problemas para todos nosotros, como lo son:
+Crecimiento de población y urbanización: el aumento de población y la urbanización a acelerado e incrementado la producción de estos residuos. Son en las zonas urbanas donde la densidad de estos residuos es alta, a lo cual esto lo convierte en un reto.
+Desechables: los consumos actuales a favorecido al consumo de productos de un solo uso y que a la vez hacen difícil su reciclaje, esto productos como lo son los plásticos, envases y empaques han generado grandes cantidades de residuos no biodegradables.
+Mala gestión: en la mayoría de las regiones le recolección y disposición de los residuos es insuficiente. Lo cual la falta de infraestructura y recursos económicos han propiciado a la acumulación de basura en vertederos que no son regulados, llevando así problemas graves dentro de nuestro entorno.</p>
+    </section>
+
+    <!-- Sección de efectos -->
+    <section id="efectos">
+        <h2>Efectos de la Contaminación</h2>
+        <p>La contaminación afecta tanto al medio ambiente como a nuestra salud.</p>
+        <!-- Slider con JavaScript -->
+    <section id="slider1">
+    <h2> Contaminación en el centro de Tepeaca </h2>
+    <div class="slider-container">
+        <div class="slider">
+             <img src="images/im/1.jpg" alt=" 1">
+                <img src="images/im/2.jpg" alt=" 2">
+                <img src="images/im/3.jpg" alt=" 3">
+                <img src="images/im/4.jpg" alt=" 4">
+                <img src="images/im/5.jpg" alt=" 2">
+                <img src="images/im/6.jpg" alt=" 3">
+                <img src="images/im/7.jpg" alt=" 1">
+                <img src="images/im/8.jpg" alt=" 2">
+                <img src="images/im/9.jpg" alt=" 3">
+
+        </div>
+    </div>
+    <!-- Controles de navegación -->
+    <button class="prev1" onclick="moveSlide(-1, 1)">&#10094;</button>
+    <button class="next1" onclick="moveSlide(1, 1)">&#10095;</button>
+</section>
+
+<section id="slider2">
+    <h2>Entrevistas sobre Contaminación </h2>
+    <div class="slider-container">
+        <div class="slider">
+            <img src="images/entrevista1.jpg" alt="Entrevista 1">
+            <img src="images/entrevista2.jpg" alt="Entrevista 2">
+            <img src="images/entrevista3.jpg" alt="Entrevista 3">
+            <img src="images/entrevista4.jpg" alt="Entrevista 4">
+            <img src="images/entrevista5.jpg" alt="Entrevista 5">
+            <img src="images/entrevista6.jpg" alt="Entrevista 6">
+            <img src="images/entrevista7.jpg" alt="Entrevista 7">
+            <img src="images/entrevista8.jpg" alt="Entrevista 8">
+            <img src="images/entrevista9.jpg" alt="Entrevista 9">
+        </div>
+    </div>
+    <!-- Controles de navegación -->
+    <button class="prev1" onclick="moveSlide(-1, 2)">&#10094;</button>
+    <button class="next1" onclick="moveSlide(1, 2)">&#10095;</button>
+</section>
+          
+
+    <!-- Sección de soluciones -->
+    <section id="soluciones">
+        <h2>Soluciones para Reducir la Contaminación</h2>
+        <ol>
+            <li>Reciclar y reutilizar productos</li>
+            <li>Usar transporte público o bicicletas</li>
+            <li>Reducir el consumo de energía</li>
+            <li>Plantar árboles</li>
+        </ol>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form id="contactForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Contaminación Ambiental. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
